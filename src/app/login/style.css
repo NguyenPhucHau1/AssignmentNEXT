@@ -1,0 +1,37 @@
+body{
+    background-image: url(../../../public/img/image28.png);
+}
+.login>div {
+    padding-top: 100px;
+}
+.login>div>h2{
+    text-align: center;
+    color: #E96E1C;
+    font-weight: 900;
+}
+.login form {
+    border-radius: 20px;
+    border: #E96E1C 2px solid;
+    padding: 20px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.login form label {
+    color: azure;
+}
+.login>div>form>button{
+    background-color: #E96E1C;
+    border: none;
+}
+.login>div>form>button:hover{
+    background-color: #C45A00;
+    color: white;
+}
+.mb-3 a{
+    color: white;
+}
+.mb-3 a:hover{
+    color: #E96E1C;
+}

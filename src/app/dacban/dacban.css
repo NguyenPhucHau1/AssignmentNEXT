@@ -1,0 +1,44 @@
+main{
+    background-color: #0000003a ;
+}
+.form-oder{
+    width: 60%;
+    padding: 150px auto 150px auto;
+    
+}
+.form-oder h1{
+    text-align: center; 
+    color: white;
+}
+.form-submit{
+    display: flex;
+    flex-direction: column;
+    border: solid 2px #FF5C004D;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-submit input{
+    background-color: #FF5C004D;
+    border-color: #FF5C004D;
+    color: white;
+}
+.form-submit span{
+    color: white;
+    margin-left: 7px;
+}
+.form-submit button {
+    background: linear-gradient(to right, rgba(202, 130, 1, 0), #CA8201, rgba(202, 130, 1, 0));
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: none; 
+    color: white; 
+    cursor: pointer; 
+}
+.form-submit button:hover{
+    background: linear-gradient(to right, rgba(202, 130, 1, 0), #CA8201, rgba(202, 130, 1, 0));
+    border: none; 
+    color: white;
+    cursor: pointer; 
+}
